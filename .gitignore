@@ -1,0 +1,10 @@
+# Exclude OSX Files
+.DS_Store
+
+# Exclude img Files / Folders
+img/resources
+img/favicon/html_head_snippet.html
+img/lymcorp
+
+# Exclude Archive Folder
+archive
