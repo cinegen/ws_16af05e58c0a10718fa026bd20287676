@@ -1,0 +1,60 @@
+/**{
+	margin:0;
+	padding:0;
+}*/
+
+html{
+    /*background: url('../img/background.jpg') repeat center top #1b1b1c;*/
+    background: url('../img/background_tile.jpg') repeat center top #1b1b1c;
+}
+
+body{
+	color:#eee;	
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	/*border-top: 5px solid #212121;*/
+}
+
+#page{
+	width:800px;    
+	/*margin: 140px auto 100px;*/
+}
+
+#page h1,
+#page h2 {
+	overflow:hidden;
+    font-size: 3.5em;    
+    margin-bottom: 25px;
+}
+
+hr.style-two { 
+    border: 0; 
+    height: 1px; 
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(111, 188, 218, 1), rgba(0, 0, 0, 0));
+}
+
+img.ri {
+	position: absolute;
+	max-width: 80%;
+	top: 10%;
+	left: 10%;
+	/*border-radius: 3px;*/
+	/*box-shadow: 0 3px 6px rgba(0,0,0,0.9);*/
+}
+
+img.ri:empty {
+	top: 15%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -15%);
+	-moz-transform: translate(-50%, -15%);
+	-ms-transform: translate(-50%, -15%);
+	-o-transform: translate(-50%, -15%);
+	transform: translate(-50%, -15%);
+}
+
+@media screen and (orientation: portrait) {
+  img.ri { max-width: 90%; }
+}
+
+@media screen and (orientation: landscape) {
+  img.ri { max-height: 90%; }
+}
